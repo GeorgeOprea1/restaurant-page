@@ -1,0 +1,192 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+#content {
+  height: 100vh;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7em;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 5wh;
+  font-size: 1.3rem;
+  background-color: rgb(121, 113, 113);
+}
+
+.imageFooter {
+  width: 1.5em;
+  cursor: pointer;
+}
+
+.imageFooter:hover {
+  transform: rotate(360deg) scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: #fff;
+  box-shadow: 0px 0px 30px 0px #999;
+}
+
+.restaurantName {
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.navbar {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.navbar > button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 900;
+  font-style: italic;
+  color: #fff;
+}
+
+.navbar > button:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+.navbar-clicked {
+  text-decoration: underline;
+  color: orange;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.faqSection,
+.privateEventsSection,
+.reservationSection,
+.menuSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 70%;
+  background-color: rgb(121, 113, 113);
+  border-radius: 10px;
+  padding-bottom: 2rem;
+}
+
+.faq-para,
+.privateEvents > p {
+  width: 50%;
+  text-align: center;
+  font-size: large;
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+}
+.reservationSection {
+  width: 50%;
+}
+
+.reservationInput {
+  width: 90%;
+}
+
+.reservationBtn {
+  width: 30%;
+  height: 2rem;
+  border-radius: 10px;
+  border: none;
+  font-size: large;
+  font-style: italic;
+  background-color: orange;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.reservationBtn:hover {
+  background-color: rgb(193, 137, 32);
+}
+
+.reservationBtn:active {
+  background-color: grey;
+}
+
+.contact > p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.chef-img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.homeSection,
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  background-color: rgb(121, 113, 113);
+  border-radius: 10px;
+  padding-bottom: 2rem;
+}
+
+.homeSection > p {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.privateEventsSection > p {
+  text-align: center;
+}
+
+.menuSection > * {
+  box-shadow: 0px 0px 30px 0px #999;
+  border-radius: 10px;
+  width: 40%;
+  text-align: center;
+}
+
+.menuSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: centers;
+  gap: 2rem;
+  padding-top: 2rem;
+}
