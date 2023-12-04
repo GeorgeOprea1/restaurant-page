@@ -1,0 +1,241 @@
+html {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+}
+
+body {
+  height: 100vh;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  color: #fff;
+  margin: 0;
+}
+
+#content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7em;
+  height: 4%;
+  font-size: calc(0.5rem + 0.5vw);
+  background-color: rgb(121, 113, 113);
+}
+
+.imageFooter {
+  width: 1.2em;
+  cursor: pointer;
+}
+
+.imageFooter:hover {
+  transform: rotate(360deg) scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: #fff;
+  box-shadow: 0px 0px 30px 0px #999;
+  width: 100%;
+}
+
+.restaurantName {
+  font-size: calc(2rem + 1vw);
+  font-style: italic;
+  font-weight: 500;
+  padding-top: 1rem;
+}
+
+.navbar {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.navbar > button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: calc(0.5rem + 1vw);
+  font-weight: 900;
+  font-style: italic;
+  color: #fff;
+}
+
+.navbar > button:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+.navbar-clicked {
+  text-decoration: underline;
+  color: orange;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-top: 4rem;
+}
+
+.reservationSection,
+.menuSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 70%;
+  background-color: rgb(121, 113, 113);
+  border-radius: 10px;
+  padding-bottom: 2rem;
+}
+
+.faqSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 95%;
+  background-color: rgb(121, 113, 113);
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+.privateEventsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 90%;
+  background-color: rgb(121, 113, 113);
+  border-radius: 10px;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  margin-bottom: 2rem;
+}
+.faq-para,
+.privateEvents > p {
+  text-align: center;
+  font-size: small;
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+  font-size: medium;
+}
+.reservationSection {
+  width: 70%;
+}
+
+.reservationInput {
+  width: 80%;
+}
+
+.reservationBtn {
+  width: 30%;
+  height: 2rem;
+  border-radius: 10px;
+  border: none;
+  font-size: calc(0.5rem + 0.5vw);
+  font-style: italic;
+  background-color: orange;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.reservationBtn:hover {
+  background-color: rgb(193, 137, 32);
+}
+
+.reservationBtn:active {
+  background-color: grey;
+}
+
+.contact > p {
+  font-size: small;
+  text-align: center;
+}
+
+.chef-img {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.homeSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+  background-color: rgb(121, 113, 113);
+  border-radius: 10px;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.homeSection > p {
+  margin: 0;
+  padding: 7px;
+}
+
+.homeSection > p {
+  color: #fff;
+}
+
+.privateEventsSection > p {
+  text-align: center;
+}
+
+.menuSection > * {
+  box-shadow: 0px 0px 30px 0px #999;
+  border-radius: 10px;
+
+  width: 90%;
+  text-align: center;
+}
+
+.menuSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: centers;
+  gap: 2rem;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  background-color: rgb(121, 113, 113);
+  border-radius: 10px;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 1rem;
+}

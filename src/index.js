@@ -1,1 +1,3 @@
-console.log("hello webpack");
+import initializeWebsite from "./restaurant-page";
+
+initializeWebsite();
