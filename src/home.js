@@ -6,7 +6,7 @@ function createHome() {
 
   const chefImage = document.createElement("img");
   chefImage.classList.add("chef-img");
-  chefImage.src = "../img/chef.jpg";
+  chefImage.src = "../dist/img/chef.jpg";
   chefImage.alt = "Chef";
 
   home.appendChild(createParagraph("Best pizza in your country"));

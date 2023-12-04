@@ -6,7 +6,7 @@ function createMenu() {
   menuTitle.textContent = "Pizza Menu";
   const menuIcon = document.createElement("img");
   menuIcon.classList.add("pizza-icon");
-  menuIcon.src = "../img/pizza.svg";
+  menuIcon.src = "../dist/img/pizza.svg";
   menuIcon.alt = "pizza icon";
   menuTitle.appendChild(menuIcon);
 
