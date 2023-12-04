@@ -1,6 +1,16 @@
 function createMenu() {
   const menu = document.createElement("div");
   menu.classList.add("menuSection");
+  const menuTitle = document.createElement("div");
+  menuTitle.classList.add("menu-title");
+  menuTitle.textContent = "Pizza Menu";
+  const menuIcon = document.createElement("img");
+  menuIcon.classList.add("pizza-icon");
+  menuIcon.src = "../img/pizza.svg";
+  menuIcon.alt = "pizza icon";
+  menuTitle.appendChild(menuIcon);
+
+  menu.appendChild(menuTitle);
 
   menu.appendChild(
     createMenuItem(

@@ -3,20 +3,13 @@ function createContact() {
   contact.classList.add("contactSection");
 
   const phoneNumber = document.createElement("p");
-  phoneNumber.textContent = "📞 07 123 456 78";
+  phoneNumber.textContent = "📞 (222)-888 5555";
 
   const address = document.createElement("p");
   address.textContent = "🏠 Cedar Koll Boulevard 42 / Wisconsin / USA";
 
-  const restaurantLocation = document.createElement("img");
-
-  // here I have to put an image and a location
-  // restaurantLocation.src = "images/restaurant-location.png";
-  // restaurantLocation.alt = "Cedar Koll restaurant location";
-
-  contact.appendChild(phoneNumber);
   contact.appendChild(address);
-  contact.appendChild(restaurantLocation);
+  contact.appendChild(phoneNumber);
 
   return contact;
 }
