@@ -1,5 +1,7 @@
 # Restaurant Page
 
+![Restaurant page interface image](./dist/img/site-interface.jpg)
+
 ### [Live Demo](https://georgeoprea1.github.io/restaurant-page/)
 
 #### 📝 Description
