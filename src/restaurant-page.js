@@ -114,7 +114,7 @@ function createFooter() {
 
   const imageFooter = document.createElement("img");
   imageFooter.classList.add("imageFooter");
-  imageFooter.src = "../dist/img/github.svg";
+  imageFooter.src = "./img/github.svg";
   linkFooter.appendChild(imageFooter);
 
   return footer;
