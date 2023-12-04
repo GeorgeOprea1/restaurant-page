@@ -57,6 +57,7 @@ body {
   font-style: italic;
   font-weight: 500;
   padding-top: 1rem;
+  cursor: pointer;
 }
 
 .navbar {
@@ -91,7 +92,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 90%;
-  margin-top: 4rem;
+  margin: 4rem 0 4rem 0;
 }
 
 .reservationSection,
@@ -176,7 +177,7 @@ h2 {
 }
 
 .chef-img {
-  width: 40%;
+  width: 50%;
   border-radius: 50%;
 }
 
@@ -197,6 +198,8 @@ h2 {
 .homeSection > p {
   margin: 0;
   padding: 7px;
+  font-style: italic;
+  font-weight: 600;
 }
 
 .homeSection > p {
@@ -249,7 +252,6 @@ h2 {
   height: 100%;
   background-color: rgb(121, 113, 113);
   border-radius: 10px;
-  padding-bottom: 2rem;
   text-align: center;
   font-size: 1rem;
 }
