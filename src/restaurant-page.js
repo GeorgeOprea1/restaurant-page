@@ -115,6 +115,7 @@ function createFooter() {
   const imageFooter = document.createElement("img");
   imageFooter.classList.add("imageFooter");
   imageFooter.src = "./img/github.svg";
+  imageFooter.setAttribute("alt", "github icon");
   linkFooter.appendChild(imageFooter);
 
   return footer;
