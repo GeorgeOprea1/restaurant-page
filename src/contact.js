@@ -19,7 +19,7 @@ function createContact() {
   hours.appendChild(weekHours);
 
   const weekendHours = document.createElement("p");
-  weekendHours.textContent = "Sat-Sun:8am-11pm";
+  weekendHours.textContent = "Sat-Sun: 8am-11pm";
   hours.appendChild(weekendHours);
 
   contact.appendChild(address);
